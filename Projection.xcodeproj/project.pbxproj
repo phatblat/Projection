@@ -80,8 +80,8 @@
 		F870BD511CDFAB4B006664A3 = {
 			isa = PBXGroup;
 			children = (
-				F870BD991CDFADC7006664A3 /* ProjectionTests */,
 				F870BD921CDFADAA006664A3 /* Projection */,
+				F870BD991CDFADC7006664A3 /* ProjectionTests */,
 				F870BD5C1CDFAB4B006664A3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -582,6 +582,7 @@
 				F870BD8E1CDFAC48006664A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F870BD8F1CDFAC48006664A3 /* Build configuration list for PBXNativeTarget "Projection-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +591,7 @@
 				F870BD911CDFAC48006664A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
