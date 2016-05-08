@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		F870BD5F1CDFAB4B006664A3 /* Projection-OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = F870BD5E1CDFAB4B006664A3 /* Projection-OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F870BD661CDFAB4B006664A3 /* Projection-OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F870BD5B1CDFAB4B006664A3 /* Projection-OSX.framework */; };
+		F870BD661CDFAB4B006664A3 /* Projection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F870BD5B1CDFAB4B006664A3 /* Projection.framework */; };
 		F870BD6B1CDFAB4B006664A3 /* Projection_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F870BD6A1CDFAB4B006664A3 /* Projection_OSXTests.swift */; };
 		F870BD7E1CDFAC48006664A3 /* Projection-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F870BD7D1CDFAC48006664A3 /* Projection-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F870BD851CDFAC48006664A3 /* Projection-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F870BD7B1CDFAC48006664A3 /* Projection-iOS.framework */; };
+		F870BD851CDFAC48006664A3 /* Projection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F870BD7B1CDFAC48006664A3 /* Projection.framework */; };
 		F870BD8A1CDFAC48006664A3 /* Projection_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F870BD891CDFAC48006664A3 /* Projection_iOSTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,13 +33,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F870BD5B1CDFAB4B006664A3 /* Projection-OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Projection-OSX.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F870BD5B1CDFAB4B006664A3 /* Projection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Projection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F870BD5E1CDFAB4B006664A3 /* Projection-OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Projection-OSX.h"; sourceTree = "<group>"; };
 		F870BD601CDFAB4B006664A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F870BD651CDFAB4B006664A3 /* Projection-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Projection-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F870BD6A1CDFAB4B006664A3 /* Projection_OSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projection_OSXTests.swift; sourceTree = "<group>"; };
 		F870BD6C1CDFAB4B006664A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F870BD7B1CDFAC48006664A3 /* Projection-iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Projection-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F870BD7B1CDFAC48006664A3 /* Projection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Projection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F870BD7D1CDFAC48006664A3 /* Projection-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Projection-iOS.h"; sourceTree = "<group>"; };
 		F870BD7F1CDFAC48006664A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F870BD841CDFAC48006664A3 /* Projection-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Projection-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F870BD661CDFAB4B006664A3 /* Projection-OSX.framework in Frameworks */,
+				F870BD661CDFAB4B006664A3 /* Projection.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F870BD851CDFAC48006664A3 /* Projection-iOS.framework in Frameworks */,
+				F870BD851CDFAC48006664A3 /* Projection.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,9 +95,9 @@
 		F870BD5C1CDFAB4B006664A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F870BD5B1CDFAB4B006664A3 /* Projection-OSX.framework */,
+				F870BD5B1CDFAB4B006664A3 /* Projection.framework */,
 				F870BD651CDFAB4B006664A3 /* Projection-OSXTests.xctest */,
-				F870BD7B1CDFAC48006664A3 /* Projection-iOS.framework */,
+				F870BD7B1CDFAC48006664A3 /* Projection.framework */,
 				F870BD841CDFAC48006664A3 /* Projection-iOSTests.xctest */,
 			);
 			name = Products;
@@ -176,7 +176,7 @@
 			);
 			name = "Projection-OSX";
 			productName = "Projection-OSX";
-			productReference = F870BD5B1CDFAB4B006664A3 /* Projection-OSX.framework */;
+			productReference = F870BD5B1CDFAB4B006664A3 /* Projection.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F870BD641CDFAB4B006664A3 /* Projection-OSXTests */ = {
@@ -212,7 +212,7 @@
 			);
 			name = "Projection-iOS";
 			productName = "Projection-iOS";
-			productReference = F870BD7B1CDFAC48006664A3 /* Projection-iOS.framework */;
+			productReference = F870BD7B1CDFAC48006664A3 /* Projection.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F870BD831CDFAC48006664A3 /* Projection-iOSTests */ = {
@@ -456,7 +456,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "at.phatbl.Projection-OSX";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Projection;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -474,7 +474,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "at.phatbl.Projection-OSX";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Projection;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -514,7 +514,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "at.phatbl.Projection-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Projection;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -534,7 +534,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "at.phatbl.Projection-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Projection;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
