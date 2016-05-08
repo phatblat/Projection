@@ -1,15 +1,15 @@
 //
-//  Projection_iOSTests.swift
-//  Projection-iOSTests
+//  ProjectionTests.swift
+//  ProjectionTests
 //
 //  Created by Ben Chatelain on 5/8/16.
 //  Copyright © 2016 Ben Chatelain. All rights reserved.
 //
 
+@testable import Projection
 import XCTest
-@testable import Projection_iOS
 
-class Projection_iOSTests: XCTestCase {
+class ProjectionTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
