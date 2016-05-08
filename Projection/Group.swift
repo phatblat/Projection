@@ -6,4 +6,4 @@
 //  Copyright © 2016 Ben Chatelain. All rights reserved.
 //
 
-import Foundation
+protocol Group {}
